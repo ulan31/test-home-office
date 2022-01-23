@@ -1,0 +1,77 @@
+$alert-bg-type: (
+  'success': #C5F2C7,
+  'danger': #FCD0CF,
+  'warning': #FBE5C9,
+);
+
+$alert-color-type: (
+  'success': #1F8B24,
+  'danger': #DA100B,
+  'warning': #BF710F,
+);
+
+.alert {
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+
+  @each $name, $color in $alert-bg-type {
+    &.alert-bg-#{$name} {
+      background-color: $color;
+    }
+  }
+
+  @each $name, $color in $alert-color-type {
+    .alert-color-#{$name} {
+      color: $color;
+    }
+  }
+
+  &.alert-position-top-right {
+    top: 16px;
+    right: 16px;
+  }
+
+  &.alert-position-top-left {
+    top: 16px;
+    left: 16px;
+  }
+
+  &.alert-position-bottom-left {
+    bottom: 16px;
+    left: 16px;
+  }
+
+  &.alert-position-bottom-right {
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .alert-body {
+    display: flex;
+    align-items: center;
+  }
+
+  .alert-title {
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+
+  .alert-text {
+    font-size: 12px;
+    padding-left: 12px;
+    padding-right: 40px;
+  }
+
+  .alert-close {
+    cursor: pointer;
+  }
+}
+
+
+
+
