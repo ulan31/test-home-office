@@ -1,0 +1,40 @@
+.wrapper {
+  max-width: 1645px;
+  background-color: #C4C4C4;
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 56px;
+
+  .block-left {
+    width: 1142px;
+
+    .block-green {
+      height: 685px;
+      background-color: #D9FFA9;
+    }
+
+    .block-white {
+      background-color: #fff;
+      margin-top: 40px;
+      height: 141px;
+    }
+  }
+
+  .block-right {
+    width: 372px;
+
+    .block-yellow {
+      height: 141px;
+      background-color: #F8E063;
+      margin-bottom: 40px;
+      margin-left: 36px;
+    }
+  }
+}
+
+
+
+
+
+

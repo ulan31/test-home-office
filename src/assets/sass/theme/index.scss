@@ -1,2 +1,7 @@
 @import "button";
 @import "alert";
+@import "grid1";
+
+@media screen and (max-width: 480px) {
+  @import "480/grid1";
+}
