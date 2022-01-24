@@ -9,12 +9,12 @@
   .block-left {
     width: 1142px;
 
-    .block-greens {
+    .block-tops {
 
-      .block-greens-row {
+      .block-tops-row {
         display: flex;
 
-        .block-green {
+        .block-top {
           flex: 1 1 533px;
           height: 433px;
           background-color: #D9FFA9;
@@ -26,10 +26,10 @@
 
     }
 
-    .block-whites {
+    .block-bottoms {
       display: flex;
 
-      .block-white {
+      .block-bottom {
         flex: 1 1 346px;
         background-color: #fff;
         height: 892px;
@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
 
-    .block-yellow {
+    .block-aside {
       flex: 1 1 auto;
       height: 579px;
       background-color: #F8E063;

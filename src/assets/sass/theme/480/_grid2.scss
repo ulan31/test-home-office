@@ -5,22 +5,24 @@
   .block-left {
     width: 100%;
 
-    .block-greens {
-      .block-greens-row {
+    .block-tops {
+      .block-tops-row {
 
         flex-direction: column;
-        .block-green {
-
+        .block-top {
           margin: 0 0 35px 0;
+          flex: 1 1 433px;
         }
       }
     }
 
-    .block-whites {
+    .block-bottoms {
       flex-direction: column;
+      margin-top: 60px;
 
-      .block-white {
-
+      .block-bottom {
+        background-color: #F8E063;
+        flex: 1 1 579px;
         margin: 0 0 35px 0;
       }
     }
@@ -29,9 +31,11 @@
   .block-right {
     width: 100%;
 
-    .block-yellow {
-
-     margin-left: 0;
+    .block-aside {
+      flex: 1 1 892px;
+      background-color: #fff;
+      margin-left: 0;
+      margin-top: 0;
     }
   }
 }
